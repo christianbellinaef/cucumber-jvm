@@ -13,7 +13,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Guice implementation of the <code>cucumber.api.java.ObjectFactory</code>.
+ * HK2 implementation of the <code>cucumber.api.java.ObjectFactory</code>.
  */
 public class HK2Factory implements ObjectFactory {
 

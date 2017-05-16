@@ -19,7 +19,7 @@ public class ServiceLocatorSourceFactoryTest {
     }
 
     @Test
-    public void createsDefaultServiceLocatorSourceWhenGuiceModulePropertyIsNotSet() throws Exception {
+    public void createsDefaultServiceLocatorSourceWhenHk2ModulePropertyIsNotSet() throws Exception {
         ServiceLocatorSourceFactory injectorSourceFactory = createServiceLocatorSourceFactory(new Properties());
         assertThat(injectorSourceFactory.create(), is(instanceOf(ServiceLocatorSource.class)));
     }
